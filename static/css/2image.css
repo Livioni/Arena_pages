@@ -1,0 +1,9 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.image-container img {
+    margin: 5px; /* 可以调整间距 */
+}
