@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     width: 50%; /* 容器宽度为父容器的80% */
-    height: 500px; /* 容器高度固定为500px */
+    height: auto; /* 容器高度固定为500px */
     margin: auto; /* 水平居中显示 */
 }
  
