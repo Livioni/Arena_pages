@@ -2,6 +2,18 @@
 
 This is the repository that contains source code for the [Arena website](https://livioni.github.io/Arena_pages/).
 
+**Arena: A Patch-of-Interest ViT Inference Acceleration System for Edge-Assisted Video Analytics**
+
+[Haosong Peng](https://livioni.github.io/) ^1^, [Wei Feng](https://github.com/Couteaux123) ^1^, [Hao Li](https://lifuguan.github.io/)^2^, [Yufeng Zhan](https://ray-zhan.github.io/)^1^, [Qihua Zhou](http://qihuazhou.com/)^3^, and Yuanqing Xia^1^
+
+1. Beijing Institute of Technology Beijing,
+
+2. Northwestern Polytechnology University
+
+3. Hong Kong University of Science and Technology Hong Kong
+
+
+
 ![intro](README.assets/intro.png)
 
 ## Abstract
@@ -14,11 +26,11 @@ The advent of edge computing has made real-time intelligent video analytics feas
 
 ## Evaluation
 
-<img src="README.assets/latency_v1.png" alt="latency_v1" style="zoom: 50%;" /> 
-
-<img src="README.assets/bandwidth.png" alt="bandwidth" style="zoom: 50%;" />
-
-<img src="README.assets/acc.png" alt="acc" style="zoom:50%;" />
+<div align="center">
+    <img src="README.assets/acc.png" alt="图片1" width="300" style="margin-right: 10px;">
+    <img src="README.assets/bandwidth.png" alt="图片2" width="300" style="margin-right: 10px;">
+    <img src="README.assets/latency_v1.png" alt="图片3" width="400">
+</div>
 
 ## Visualizations
 
