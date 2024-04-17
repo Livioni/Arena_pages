@@ -189,6 +189,17 @@
 
 <section class="section">
   <div class="container is-max-desktop">
+    <!--/ Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-max-desktop">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The advent of edge computing has made real-time intelligent video analytics feasible. Previous works, based on traditional model architecture (e.g., CNN, RNN, etc.), employ various strategies to filter out non-region-of-interest content to minimize bandwidth and computation consumption but show inferior performance in adverse environments. Recently, visual foundation models based on transformers have shown great performance in adverse environments due to their amazing generalization capability. However, they require a large amount of computation power, which limits their applications in real-time intelligent video analytics. In this paper, we find visual foundation models like Vision Transformer (ViT) also have a dedicated acceleration mechanism for video analytics. To this end, we introduce Arena, an end-to-end edge-assisted video inference acceleration system based on ViT. We leverage the capability of ViT that can be accelerated through token pruning by only offloading and feeding Patches-of-Interest (PoIs) to the downstream models. Additionally, we employ probability-based patch sampling, which provides a simple but efficient mechanism for determining PoIs where the probable locations of objects are in subsequent frames. Through extensive evaluations on public datasets, our findings reveal that Arena can boost inference speeds by up to 1.58\times1.58\times and 1.82\times1.82\times on average while consuming only 54% and 34% of the bandwidth, respectively, all with high inference accuracy.
+          </p>
+        </div>
+      </div>
+    </div>
     <!-- Method. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-max-desktop">
@@ -209,7 +220,7 @@
           <h2 class="title is-3">Accuracy</h2>
           <img id="framework" src="./static/images/acc.png">
           <p>
-            The </srong>accuracy</srong> of different methods on two datasets. Arena can maintain accuracy losses within </srong>1%</srong> and </srong>4%</srong>.
+            The <srong>accuracy</srong> of different methods on two datasets. Arena can maintain accuracy losses within <srong>1%</srong> and <srong>4%</srong>.
           </p>
         </div>
       </div>
@@ -222,7 +233,7 @@
           <div class="column content">
             <img id="framework" src="./static/images/bindwidth.png">
             <p>
-              The normalized </srong>bandwidth usage</srong> of different methods on two datasets.
+              The normalized <srong>bandwidth usage</srong> of different methods on two datasets.
             </p>
           </div>
 
@@ -235,7 +246,7 @@
           <div class="column content">
             <img id="framework" src="./static/images/latency.png">
             <p>
-              The average </srong>end-to-end latency</srong> per frame of different methods on two datasets. End-to-end latency includes a breakdown of </srong>preprocessing, transmission, and inference time</srong>.
+              The average <srong>end-to-end latency</srong> per frame of different methods on two datasets. End-to-end latency includes a breakdown of <srong>preprocessing, transmission</srong>, and <srong>inference time</srong>.
             </p>
           </div>
 
@@ -249,24 +260,9 @@
 
 
 <hr> <!-- 这里是分割线 -->
-<!-- <section class="section">
-  <div class="container is-max-desktop">
-    
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            The advent of edge computing has made real-time intelligent video analytics feasible. Previous works, based on traditional model architecture (e.g., CNN, RNN, etc.), employ various strategies to filter out non-region-of-interest content to minimize bandwidth and computation consumption but show inferior performance in adverse environments. Recently, visual foundation models based on transformers have shown great performance in adverse environments due to their amazing generalization capability. However, they require a large amount of computation power, which limits their applications in real-time intelligent video analytics. In this paper, we find visual foundation models like Vision Transformer (ViT) also have a dedicated acceleration mechanism for video analytics. To this end, we introduce Arena, an end-to-end edge-assisted video inference acceleration system based on ViT. We leverage the capability of ViT that can be accelerated through token pruning by only offloading and feeding Patches-of-Interest (PoIs) to the downstream models. Additionally, we employ probability-based patch sampling, which provides a simple but efficient mechanism for determining PoIs where the probable locations of objects are in subsequent frames. Through extensive evaluations on public datasets, our findings reveal that Arena can boost inference speeds by up to 1.58\times1.58\times and 1.82\times1.82\times on average while consuming only 54% and 34% of the bandwidth, respectively, all with high inference accuracy.
-          </p>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</section> -->
 <section class="section">
   <div class="container is-max-desktop">
+
     <!-- Method. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-max-desktop">
@@ -279,24 +275,14 @@
         <p>
       </div>
     </div>
-    <!--/ Method. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-max-desktop">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            The advent of edge computing has made real-time intelligent video analytics feasible. Previous works, based on traditional model architecture (e.g., CNN, RNN, etc.), employ various strategies to filter out non-region-of-interest content to minimize bandwidth and computation consumption but show inferior performance in adverse environments. Recently, visual foundation models based on transformers have shown great performance in adverse environments due to their amazing generalization capability. However, they require a large amount of computation power, which limits their applications in real-time intelligent video analytics. In this paper, we find visual foundation models like Vision Transformer (ViT) also have a dedicated acceleration mechanism for video analytics. To this end, we introduce Arena, an end-to-end edge-assisted video inference acceleration system based on ViT. We leverage the capability of ViT that can be accelerated through token pruning by only offloading and feeding Patches-of-Interest (PoIs) to the downstream models. Additionally, we employ probability-based patch sampling, which provides a simple but efficient mechanism for determining PoIs where the probable locations of objects are in subsequent frames. Through extensive evaluations on public datasets, our findings reveal that Arena can boost inference speeds by up to 1.58\times1.58\times and 1.82\times1.82\times on average while consuming only 54% and 34% of the bandwidth, respectively, all with high inference accuracy.
-          </p>
-        </div>
-      </div>
-    </div>
+
     <!--/ Method. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-max-desktop">
         <img id="framework" src="./static/images/Heatmap.png">
         </img>
         <div class="content has-text-justified">
-          Heatmaps of patches identified as PoIs, where darker areas indicate a higher frequency of offloading to the edge server.
+          <strong>Heatmaps</strong> of patches identified as PoIs, where darker areas indicate a higher frequency of offloading to the edge server.
         </div>
       </div>
     </div>
