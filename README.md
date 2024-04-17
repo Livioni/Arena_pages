@@ -6,9 +6,9 @@ This is the repository that contains source code for the [Arena website](https:/
 
 [Haosong Peng](https://livioni.github.io/)<sup>1</sup> , [Wei Feng](https://github.com/Couteaux123)<sup>1</sup>, [Hao Li](https://lifuguan.github.io/)<sup>2</sup>, [Yufeng Zhan](https://ray-zhan.github.io/)<sup>1</sup>, [Qihua Zhou](http://qihuazhou.com/)<sup>3</sup>, and Yuanqing Xia<sup>1</sup>
 
-1. Beijing Institute of Technology Beijing,
-2. Northwestern Polytechnology University
-3. Hong Kong University of Science and Technology Hong Kong
+1. Beijing Institute of Technology Beijing (BIT),
+2. Northwestern Polytechnology University (NWPU),
+3. Hong Kong University of Science and Technology (HKUST)
 
 
 
