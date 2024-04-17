@@ -105,18 +105,18 @@
             <span class="author-block">
               <a href="https://livioni.github.io/">Haosong Peng</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://couteaux123.github.io/">Wei Feng</a><sup>2</sup>,</span>
+              <a href="https://couteaux123.github.io/">Wei Feng</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://lifuguan.github.io/">Hao Li</a><sup>3</sup>,
+              <a href="https://lifuguan.github.io/">Hao Li</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://dblp.org/pid/173/1777.html">Yufeng Zhan</a><sup>4</sup>,
+              <a href="https://dblp.org/pid/173/1777.html">Yufeng Zhan</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://github.com/kimihe">Qihua Zhou</a><sup>5</sup>,
+              <a href="https://github.com/kimihe">Qihua Zhou</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=HtedN3oAAAAJ&hl=zh-CN">Yuanqing Xia</a><sup>6</sup>,
+              <a href="https://scholar.google.com/citations?user=HtedN3oAAAAJ&hl=zh-CN">Yuanqing Xia</a><sup>1</sup>,
             </span>
           </div>
 
@@ -202,10 +202,10 @@
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Training and Rendering</h2>
-          <img id="framework" src="./static/images/fig3.jpg">
+          <h2 class="title is-3">Accuracy</h2>
+          <img id="framework" src="./static/images/acc.png">
           <p>
-            Illustration of <strong>training</strong>(a) and <strong>rendering</strong>(b) procedure, where S.E. field denotes Semantic-Embedding Field.
+            The </srong>accuracy of different methods on two datasets. Arena can maintain accuracy losses within </srong>1% and </srong>4%.
           </p>
         </div>
       </div>
@@ -224,6 +224,21 @@
 
         </div>
       </div>
+      
+      <div class="column">
+        <h2 class="title is-3">Loss Functions</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <img id="framework" src="./static/images/distill.jpg">
+            <p>
+              <strong>2D Semantic Distillation</strong> $\mathcal{L}_{\text {S.D}}$ and <strong>Depth-Guided Semantic Optimization</strong> $\mathcal{L}_{\text {D.G}}$. This figure demonstrates a single raw of our semantic-embedding field.  the network "cheat" by rendering all points $\boldsymbol{f}^{sem}_i$ to the same prediction to satisfy $\mathcal{L}_{\text {S.D}}$ supervision. By performing spatial-wise semantic supervision,  $\mathcal{L}_{\text {S.D}}$ is able to mitigate the issue of "cheating".
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+
     </div>
   </div>
 </section>
